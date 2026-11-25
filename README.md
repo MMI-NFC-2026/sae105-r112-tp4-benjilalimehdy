@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Benjilali
+- prénom : Mehdy
+- URL Netlify : https://helpful-daffodil-5322f7.netlify.app
 
 # Travail
 
