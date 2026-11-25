@@ -33,3 +33,18 @@
 .accordeon > details > div {
   padding: 0 1rem 1rem;
 }
+
+.accordeon > details[open] {
+  border-color: #3b82f6;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.accordeon > details[open] > summary {
+  background-color: #e0ecff;
+  border-bottom: 1px solid #3b82f6;
+}
+
+.accordeon > details[open] > div {
+  padding-top: 1rem;
+}
