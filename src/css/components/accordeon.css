@@ -24,6 +24,22 @@
   list-style: none;
 }
 
+.accordeon > details > summary::before {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-right: 1rem;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid #333;
+  transition: transform 0.2s;
+}
+
+.accordeon > details[open] > summary::before {
+  transform: rotate(90deg);
+  border-left-color: #3b82f6;
+}
+
 .accordeon > details > summary::marker,
 .accordeon > details > summary::-webkit-details-marker {
   display: none;
